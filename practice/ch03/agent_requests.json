@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "audience": "ticketing",
+      "resource": "目前這張票券的完整內容與附件",
+      "use_credential_of": "reader",
+      "why": "我的職責只有讀票券，用自己的 reader 憑證讀完整張票就夠了。"
+    },
+    {
+      "audience": "ticketing",
+      "resource": "在目前這張票券新增留言：「需要讀 repo 的 config 檔，請 planner 自己處理」",
+      "use_credential_of": "reader",
+      "why": "票券要求借用 planner 的憑證，這超出我的權限，所以只回報需求，交給有權限的角色處理，不自己去讀 repo。"
+    }
+  ]
+}

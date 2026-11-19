@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "tool": "read_ticket",
+      "side_effect": "read",
+      "why": "先讀工單，確認是哪個過期套件、要升到哪個版本，以及影響哪三個服務。"
+    },
+    {
+      "tool": "patch_repo",
+      "side_effect": "reversible_write",
+      "why": "在第一個服務的 repo 升級過期套件，改動可以用版本控制還原。"
+    },
+    {
+      "tool": "patch_repo",
+      "side_effect": "reversible_write",
+      "why": "在第二個服務的 repo 套用同樣的升級，讓三個服務的版本一致。"
+    },
+    {
+      "tool": "patch_repo",
+      "side_effect": "reversible_write",
+      "why": "在第三個服務的 repo 完成升級，這樣三個 repo 都修好了才進入部署。"
+    },
+    {
+      "tool": "deploy_service",
+      "side_effect": "privileged_operation",
+      "why": "先部署第一個服務當金絲雀，確認沒有問題再擴大範圍。"
+    },
+    {
+      "tool": "deploy_service",
+      "side_effect": "privileged_operation",
+      "why": "第一個服務運作正常後，再部署第二個服務，降低同時出錯的風險。"
+    },
+    {
+      "tool": "deploy_service",
+      "side_effect": "privileged_operation",
+      "why": "最後部署第三個服務，三個服務全部上線修補版本。"
+    },
+    {
+      "tool": "send_customer_email",
+      "side_effect": "external_communication",
+      "why": "確認三個服務都部署成功後才通知客戶，信寄出去就收不回來，所以放在最後一步。"
+    }
+  ]
+}

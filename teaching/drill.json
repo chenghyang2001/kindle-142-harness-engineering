@@ -1,0 +1,93 @@
+{
+ "book": "K142",
+ "title": "Harness Engineering：長時程多代理 AI 系統的安全設計模式",
+ "mode": "prompt-drill",
+ "window_layout": "HP1 螢幕 3 橫式左右兩半：左＝教練、右＝練習",
+ "practice_dir": "practice",
+ "units": [
+  {
+   "id": "ch00",
+   "num": 0,
+   "title": "導論與環境準備：把 HarnessLab 跑起來",
+   "exercises": 2,
+   "file": "prompts/ch00.md"
+  },
+  {
+   "id": "ch01",
+   "num": 1,
+   "title": "Harness 作為長時程多代理系統的控制平面",
+   "exercises": 2,
+   "file": "prompts/ch01.md"
+  },
+  {
+   "id": "ch02",
+   "num": 2,
+   "title": "自主性：分級控制與人類監督",
+   "exercises": 2,
+   "file": "prompts/ch02.md"
+  },
+  {
+   "id": "ch03",
+   "num": 3,
+   "title": "身分：每個代理的身分與委派鏈",
+   "exercises": 2,
+   "file": "prompts/ch03.md"
+  },
+  {
+   "id": "ch04",
+   "num": 4,
+   "title": "意圖：合約、偏移偵測與依目的授權",
+   "exercises": 2,
+   "file": "prompts/ch04.md"
+  },
+  {
+   "id": "ch05",
+   "num": 5,
+   "title": "上下文：信任分級、來源與防投毒",
+   "exercises": 2,
+   "file": "prompts/ch05.md"
+  },
+  {
+   "id": "ch06",
+   "num": 6,
+   "title": "記憶：狀態防火牆、帳本與遺忘",
+   "exercises": 2,
+   "file": "prompts/ch06.md"
+  },
+  {
+   "id": "ch07",
+   "num": 7,
+   "title": "可觀測性、評估與爬坡證據",
+   "exercises": 2,
+   "file": "prompts/ch07.md"
+  },
+  {
+   "id": "ch08",
+   "num": 8,
+   "title": "執行期操控：介入、政策注入與安全回滾",
+   "exercises": 2,
+   "file": "prompts/ch08.md"
+  },
+  {
+   "id": "ch09",
+   "num": 9,
+   "title": "擴展性：代理群協調不連鎖崩潰",
+   "exercises": 2,
+   "file": "prompts/ch09.md"
+  },
+  {
+   "id": "ch10",
+   "num": 10,
+   "title": "資料治理：分級感知工具、外流管控與合規",
+   "exercises": 2,
+   "file": "prompts/ch10.md"
+  },
+  {
+   "id": "ch11",
+   "num": 11,
+   "title": "全書總複習：Capstone 修補代理群與上線前檢查",
+   "exercises": 2,
+   "file": "prompts/ch11.md"
+  }
+ ]
+}

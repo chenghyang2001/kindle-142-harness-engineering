@@ -1,0 +1,20 @@
+ch01 PASS score=0.980 Harness as the Control Plane for Long-Horizon Multi-Agent Systems
+  Mapped an unsafe shared-tool agent project to a secure harness, blocked or escalated unsafe paths, created a checkpoint before privileged work, and showed a governed hill-climbing path.
+ch02 PASS score=1.000 Autonomy: Graduated Control and Human Oversight
+  Graduated autonomy allowed low-risk work, queued supervised actions, blocked budget exhaustion and non-waivable secret access, renewed an expired long-running lease, and executed rollback for a reversible write.
+ch03 PASS score=1.000 Identity: Per-Agent Identity and Delegation Chains
+  Per-agent and per-task identities issued short-lived audience-bound credentials, preserved delegation chains, revoked stale grants, rotated credentials across pause/resume, and enforced least-privilege tool, data, and resource scope.
+ch04 PASS score=1.000 Intent: Contracts, Drift Detection, and Authorization by Purpose
+  Intent contracts constrained tools, data, risk, evidence, resume state, and reauthorization so the agent could continue only under the currently approved purpose.
+ch05 PASS score=1.000 Context: Trust Tiers, Provenance, and Context-Poisoning Containment
+  Selected the high-assurance context profile, released only fresh trusted context, isolated external material, persisted quarantine evidence, blocked lethal-trifecta egress, and checkpointed the long-running agent.
+ch06 PASS score=1.000 Memory: State Firewall, Ledger, and Forgetting
+  Memory writes were gated, promoted through a handoff path, recorded in a ledger, isolated by tenant, forgotten by TTL, tombstoned on rollback, and protected from recursive poisoning before durable future behavior changed.
+ch07 PASS score=1.000 Observability, Evals, and Hill-Climbing Evidence
+  Observed a risky agent action with redacted traces, sealed evidence, replayable artifacts, benchmark regression proof, a hill-climbing eval loop, and governed recursive self-improvement.
+ch08 PASS score=1.000 Runtime Steering: Intervention, Policy Injection, and Safe Rollback
+  Runtime steering observed a long-running run, warned on hostile context, paused and blocked unsafe output, killed a retrying subtask, recovered from checkpoint, replayed evidence, compensated with safe rollback, and expired a bounded policy overlay before completion.
+ch09 PASS score=1.000 Scalability: Fleet Coordination Without Cascading Failure
+  Fleet coordination exercised tenant bulkheads, queues, quotas, rate limits, idempotent retries, compromised-worker containment, and long-running capacity governance.
+ch10 PASS score=1.000 Data Governance: Classification-Aware Tools, Egress, and Compliance
+  Chapter 10 routes labeled data through approved model and tool profiles, blocks unsafe egress and residency drift, escalates secret leakage, persists labels across resume, and proves erasure across memory plus trace evidence.

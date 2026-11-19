@@ -1,0 +1,22 @@
+{
+  "writes": [
+    {
+      "key": "hotel_qingchuan_taipei_checkin_checkout",
+      "value": "晴川商旅 台北館：入住 15:00 起，退房 11:00 前",
+      "data_class": "public",
+      "source": "web_page"
+    },
+    {
+      "key": "hotel_qingchuan_taipei_breakfast",
+      "value": "晴川商旅 台北館早餐 7:00–10:00，地點在 2 樓餐廳",
+      "data_class": "public",
+      "source": "web_page"
+    },
+    {
+      "key": "hotel_qingchuan_taipei_address",
+      "value": "晴川商旅 台北館地址：（虛構）台北市示範路 1 號",
+      "data_class": "public",
+      "source": "web_page"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "triage_status": "QUARANTINED_PROMPT_INJECTION",
+  "quarantine_findings": [
+    "possible instruction injection: exfiltrate",
+    "possible instruction injection: system prompt"
+  ],
+  "patch_status": "PATCH_SYNTHESIZED",
+  "patch_diff_hash": "a884ace49d894ca0cd67fbc730ae2bec30b807804a169ba173526fd2bec3b565",
+  "deploy_status": "DEPLOYED_TO_PRODUCTION",
+  "evidence_envelope_hash": "cc2e2129601d8b676e57258eef8583663c27cc1ba415297e59fa55abaaa71b78",
+  "total_decisions_recorded": 7
+}

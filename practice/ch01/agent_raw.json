@@ -1,0 +1,34 @@
+{
+  "calls": [
+    {
+      "tool": "read_ticket",
+      "data_class": "pii",
+      "side_effect": "read",
+      "intent": "Read the customer ticket to understand the worker crash report"
+    },
+    {
+      "tool": "patch_repo",
+      "data_class": "internal",
+      "side_effect": "reversible_write",
+      "intent": "Apply a code fix for the worker crash on a branch"
+    },
+    {
+      "tool": "deploy_service",
+      "data_class": "internal",
+      "side_effect": "privileged_operation",
+      "intent": "Deploy the patched worker service to production"
+    },
+    {
+      "tool": "send_customer_email",
+      "data_class": "pii",
+      "side_effect": "external_communication",
+      "intent": "Notify the customer that the crash fix has been deployed"
+    },
+    {
+      "tool": "emit_trace",
+      "data_class": "internal",
+      "side_effect": "reversible_write",
+      "intent": "Record an audit trace of the incident handling steps"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "refunds": [
+    {
+      "order": "TW-20261101-001",
+      "amount": 12990,
+      "category": "electronics",
+      "action": "refund"
+    },
+    {
+      "order": "TW-20261102-014",
+      "amount": 1500,
+      "category": "gift_card",
+      "action": "refund"
+    },
+    {
+      "order": "TW-20261103-027",
+      "amount": 890,
+      "category": "apparel",
+      "action": "refund"
+    },
+    {
+      "order": "TW-20261104-035",
+      "amount": 3000,
+      "category": "gift_card",
+      "action": "refund"
+    },
+    {
+      "order": "TW-20261105-042",
+      "amount": 450,
+      "category": "books",
+      "action": "refund"
+    },
+    {
+      "order": "TW-20261106-058",
+      "amount": 620,
+      "category": "grocery",
+      "action": "refund"
+    }
+  ]
+}
